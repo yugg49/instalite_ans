@@ -1,0 +1,21 @@
+{
+  "name": "instalite",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  }
+}
